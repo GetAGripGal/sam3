@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Model checkpoints and cache
+*.pt
+*.pth
+*.ckpt
+models/
+.cache/
+__pycache__/
+
+# Results and outputs
+real_result_*.png
+demo_image.jpg
+*.jpg
+*.png
+*.gif
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Hugging Face cache (optional - uncomment if you want to ignore)
+# .cache/huggingface/
