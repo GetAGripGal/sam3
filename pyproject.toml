@@ -96,6 +96,9 @@ packages = [
 [tool.setuptools.dynamic]
 version = {attr = "sam3.__version__"}
 
+[tool.setuptools.package-data]
+sam3 = ["assets/*.txt.gz"]
+
 [tool.black]
 line-length = 88
 target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
